@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "nunito", "Quicksand";
+  src:url('NunitoSans-Black.ttf') format('truetype'),
+      url('Quicksand-VariableFont_wght.ttf') format('truetype');
+}
+span,div {
+  display: inline-block;
+}
+
+body{
+
+  display: flex;
+  height: 800px;
+  width: 1440px;
+
+
+}
+.body{
+  width: 100%;
+  height: 100%;
+  background-image: url("C:/Users/Admin/Desktop/UCAC ICAM/X2/Developpement web/Projet Web/Mockup/Background/bck-img1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top:0px;
+  left: 0px;
+  overflow: hidden;
+
+
+}
+
+h1{
+  font-family: "nunito", sans-serif;
+  font-size: 25px;
+  text-align: left;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: Bold;
+  top: 14px;
+  left: 34px;
+    color: rgba(24, 18, 72, 0.76);
+/*  color: #181248;*/
+}
+h2{
+  font-family: "nunito", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: Bold;
+}
+p{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+
+}
+input::placeholder {
+  color: #6771C5;
+  opacity: 0.75;
+  font-size: 15px;
+  text-align: center;
+}
+
+.signB{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.sign{
+  margin-left: 200px;
+  margin-right: 900px;
+  height: 928px;
+  width: 300px;
+  display: inline-block;
+  /*justify-content: center;
+  align-items: center;*/
+  flex-direction: column;
+}
+
+input{
+  padding: 15px;
+  width: 300px;
+  height: 22px;
+  margin: 2px;
+  border-radius: 15px;
+  border-color:rgba(249, 235, 235, 0.70) ;
+  background: rgba(249, 235, 235, 0.70);
+
+}
+
+.campus{
+  margin-bottom: 20px;
+}
+/*
+.image{
+  position: absolute;
+  height: 1024px;
+  width: 655px;
+  left: 785px;
+  top: 0px;
+}*/
+.image{
+  position: absolute;
+  height: 100%;
+  width: 655px;
+  background: url("C:/Users/Admin/Desktop/UCAC ICAM/X2/Developpement web/Projet Web/Mockup/Background/IMG_0537.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  top:0px;
+  overflow: hidden;
+  left: 785px;
+}
+
+.check1{
+  margin-right: 150px;
+  margin-bottom: 20px;
+  display: inline-flex;
+  width: 300px;
+  height: 22px;
+
+}
+.end{
+margin-top: 30px;
+  text-align: center;
+}
+.confirm{
+  padding: 15px;
+  width: 300px;
+  height: 22px;
+  margin: 2px;
+  border-radius: 20px;
+  border-color:rgba(249, 235, 235, 0.70) ;
+  background: rgba(249, 235, 235, 0.70);
+  text-align: center;
+  color: black;
+}

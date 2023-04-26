@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand:wght@700&display=swap");
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-image: url("Background/bck-img1.png");
+}
+header .logo__box {
+  position: relative;
+  width: 77px;
+  height: 77px;
+  left: 20px;
+}
+header .nav {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+header ul {
+  display: flex;
+  gap: 30px;
+}
+header ul .nav__link > a {
+  color: black;
+  font-family: nunito, sans-serif;
+}
+header ul .link {
+  background-color: rgba(241, 190, 179, 0);
+  border-radius: 50px;
+  transition: ease-in-out transfom 1s, background-color ease-in-out 1s;
+  padding: 6px;
+}
+header ul .link:hover {
+  background-color: rgba(241, 190, 179, 0.74);
+  transform: scale(1.2);
+}
+header ul .nav__link:hover {
+  border-radius: 20px;
+}
+header .header__util {
+  margin-right: 20px;
+}
+header .header__util .header__bloc {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+header .text__hover {
+  display: none;
+}
+
+/*# sourceMappingURL=header.css.map */

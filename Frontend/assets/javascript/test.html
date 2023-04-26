@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+  .popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+</style>
+
+<!-- Contenu de votre header -->
+<header>
+
+  <nav>
+    <ul>
+      <li><a href="#" id="icone1"><i class="fa fa-envelope">popup1</i></a></li>
+      <li><a href="#" id="icone2"><i class="fa fa-user">popup2</i></a></li>
+      <li><a href="#" id="icone3"><i class="fa fa-cog">popup3</i></a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Contenu de vos pop-ups -->
+<div id="popup1" class="popup">
+  <h2>Pop-up 1</h2>
+  <p>Contenu du Pop-up 1</p>
+</div>
+
+<div id="popup2" class="popup">
+  <h2>Pop-up 2</h2>
+  <p>Contenu du Pop-up 2</p>
+</div>
+
+<div id="popup3" class="popup">
+  <h2>Pop-up 3</h2>
+  <p>Contenu du Pop-up 3</p>
+</div>
+
+
+<script>
+  // Récupération des icônes dans le header
+  var icone1 = document.getElementById("icone1");
+  var icone2 = document.getElementById("icone2");
+  var icone3 = document.getElementById("icone3");
+
+  // Récupération des pop-ups
+  var popup1 = document.getElementById("popup1");
+  var popup2 = document.getElementById("popup2");
+  var popup3 = document.getElementById("popup3");
+
+  // Ajout des gestionnaires d'événements "click" pour chaque icône
+  icone1.addEventListener("click", function() {
+    popup1.style.display = "block";
+  });
+
+  icone2.addEventListener("click", function() {
+    popup2.style.display = "block";
+  });
+
+  icone3.addEventListener("click", function() {
+    popup3.style.display = "block";
+  });
+</script>
+</body>
+</html>

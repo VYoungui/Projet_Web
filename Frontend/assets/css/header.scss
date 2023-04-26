@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand:wght@700&display=swap');
+$body_font: nunito, sans-serif ;
+
+*{
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+}
+//Box contenant toute les informations du header
+header{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("Background/bck-img1.png");
+
+
+//Stylisation apportées au logo
+  .logo__box{
+    position: relative;
+    width: 77px;
+    height: 77px;
+    left: 20px;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+//Diposition de tous les menu de navigation (boutique, news..)
+  ul{
+    display: flex;
+    gap: 30px;
+
+    .nav__link > a{
+        color: black;
+        font-family: $body_font;
+    }
+
+    .link {
+      background-color: rgba(241, 190, 179, 0);
+      border-radius: 50px;
+      transition: ease-in-out transfom 1s, background-color ease-in-out 1s;
+      padding: 6px;
+    }
+
+    .link:hover{
+      background-color: rgba(241, 190, 179, 74%);
+      transform: scale(1.2);
+    }
+
+    .nav__link:hover{
+      border-radius: 20px;
+    }
+
+  }
+
+  //Stylisation apportées à tous les box du header (boutique, notifications, ...)
+  .header__util{
+    margin-right: 20px;
+
+    .header__bloc{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  //faire un css pour le survol
+  .text__hover{
+    display: none;
+  }
+
+}
+
+
+//Gestion de la partie Responsive
+
+

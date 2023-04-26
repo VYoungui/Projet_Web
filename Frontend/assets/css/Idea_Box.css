@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand:wght@700&display=swap");
+.popup__box {
+  width: 40%;
+  height: 600px;
+  max-height: 600px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+.popup__box .box__container {
+  display: flex;
+}
+.popup__box .box__container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 200px;
+}
+.popup__box hr {
+  width: 90%;
+}
+.popup__box section {
+  display: flex;
+  justify-content: space-between;
+}
+.popup__box section .profile {
+  border: 1px solid;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+.popup__box section .text__container {
+  width: 70%;
+  height: 80%;
+  border: 1px solid;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popup__box section .text__container p {
+  font-weight: bold;
+  font-family: nunito, sans-serif;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=Idea_Box.css.map */

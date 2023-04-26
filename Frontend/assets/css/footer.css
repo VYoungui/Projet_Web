@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand:wght@700&display=swap");
+* {
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+  position: relative;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 100%;
+  background-image: url("Background/bck-img1.png");
+}
+footer .footer__section {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+footer .footer__section .section__title {
+  margin-bottom: 10px;
+  font-family: Quicksand, sans-serif;
+}
+footer .footer__section a, footer .footer__section div {
+  margin-bottom: 5px;
+}
+footer .footer__section .navigation {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer__section div {
+  display: flex;
+  align-items: center;
+}
+footer .footer__section div img {
+  margin-right: 5px;
+}
+footer .copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .copyright div {
+  color: rgba(24, 18, 72, 0.76);
+}
+footer a, footer div {
+  font-family: nunito, sans-serif;
+  color: #000000;
+}
+
+/*# sourceMappingURL=footer.css.map */

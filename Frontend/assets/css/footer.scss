@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand:wght@700&display=swap');
+$body_font: nunito, sans-serif ;
+$font_color: #000000;
+$title_font: Quicksand, sans-serif;
+
+*{
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+  position: relative;
+}
+
+//Taille et positionnement du footer et ses éléments
+footer{
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 100%;
+  background-image: url("Background/bck-img1.png");
+
+//Modificaitions apportées à chaque section du footer
+  .footer__section{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+
+//Modification pour les titres de chaque section
+    .section__title{
+      margin-bottom: 10px;
+      font-family: $title_font;
+    }
+
+//Séparation entre les différents liens et textes
+    a,div{
+      margin-bottom: 5px;
+    }
+
+
+
+//Modification pour la section navigation uniquement
+    .navigation{
+      display: flex;
+      flex-direction: column;
+    }
+
+//Modification pour tous les liens qui sont contenus dans les div des sections
+    div{
+      display: flex;
+      align-items: center;
+
+      img{
+        margin-right: 5px ;
+      }
+    }
+  }
+
+//Modification sur le copyright
+  .copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div{
+      color: rgba(24, 18, 72, 0.76);
+    }
+  }
+
+//Définition de la police du copyright et des liens
+  a,div{
+    font-family: $body_font;
+    color: $font_color;
+  }
+
+
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>header</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="/Frontend/assets/css/Notification.css">
+    
+</head>
+<body>
+<header>
+    <a href="#" ><div  class="logo__box"><img src="assets/css/Background/logo.png" alt="logo"/><span class="text__hover">Logo</span></div></a>
+    <nav class="nav">
+        <ul class="link_container">
+            <li class="link nav__link"><a href="#">Activités</a></li>
+            <li class="link nav__link"><a href="#">News</a></li>
+            <li class="link nav__link"><a href="#">Evènements</a></li>
+        </ul>
+    </nav>
+    
+
+    <div class="header__util">
+        <ul>
+            <li class="link"><a href="#"><div  class="header__bloc" onclick="displayPopup('popup__ideaBox')"><img src="assets/css/Icone/box.png" alt="Boite à idée"/><span class="text__hover">Boite à idée</span></div></a></li>
+            <li class="link"><a href="#" ><div  class="header__bloc"><img src="assets/css/Icone/notification.png" alt="Notification" /><span class="text__hover">Notification</span></div></a></li>
+            <li class="link"><a href="#"><div  class="header__bloc" onclick="displayPopup('popup')"><img src="assets/css/Icone/profile.png" alt="Profile"/><span class="text__hover">Profil</span></div></a></li>
+            <li class="link"><a href="#"><div  class="header__bloc" ><img src="assets/css/Icone/shop.png" alt="Boutique"/><span class="text__hover">Boutique</span></div></a></li>
+        </ul>
+    </div>
+</header>
+
+<main id="popup__ideaBox" >
+<!--Les différents popup    -->
+
+    <!--    Popup pour la boite à idée-->
+
+    <div class="popup__box">
+        <div class="box__container">
+            <h1>Ideas Box</h1>
+            <div class="box"><img src="../assets/css/Icone/box.png" alt=""> </div>
+        </div>
+
+        <hr>
+        <section>
+            <div class="profile"></div>
+            <div class="text__container">
+                <div class="profile__bio">
+                    <p>Nom de la personne</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <img src="../assets/css/Icone/box.png" alt="" height="30" width="30"/>
+            </div>
+        </section>
+
+        <section>
+            <div></div>
+            <div class="text__container">
+                <div>
+                    <p>Nom de la personne</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <img src="../assets/css/Icone/box.png" alt="" height="30" width="30"/>
+            </div>
+        </section>
+
+        <section>
+            <div></div>
+            <div class="text__container">
+                <div>
+                    <p>Nom de la personne</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <img src="../assets/css/Icone/box.png" alt="" height="30" width="30"/>
+            </div>
+        </section>
+    </div>
+</main>
+
+
+<main id="popup__notify">
+
+
+    <!--    Popup pour les notification-->
+
+    <!--    Popup pour le profile-->
+
+</main>
+
+
+<script src="assets/javascript/header.js"></script>
+</body>
+</html>
